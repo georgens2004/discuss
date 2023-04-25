@@ -6,7 +6,7 @@ from config import HOST, PG_USER, PG_PASSWORD, PG_DATABASE
 
 async def db_create():
     # Recreating database tables
-    create_db_command = open("create_db.sql", 'r').read()
+    create_db_command = open("sql/db_init.sql", 'r').read()
 
     logger.info("Connecting to db")
     conn: asyncpg.Connection = await asyncpg.connect (
@@ -28,15 +28,6 @@ async def db_create_pool():
         password = PG_PASSWORD,
         database = PG_DATABASE,
     )
-
-
-async def db_add_user(tg_id, tg_username, gender='Male'):
-    # Adding user to the database
-    db = await db_create_pool()
-    db_query = '''INSERT INTO users (id, username, ) 
-                VALUES ($1, $2, $3, $4, $5, $6)'''
-    await db.execute(db_query, tg_id, tg_username)
-    await db.close()
 
 
 '''

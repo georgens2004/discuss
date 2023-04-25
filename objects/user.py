@@ -1,13 +1,13 @@
 from sql.base import db_create_pool
 
-Users = {}
+users = {}
 class User:
 
     def __init__(self, user):
         self.id = user["id"]
-        self.username = user["username"]
         self.topics = user["topics"]
         self.companion = user["companion"]
+        self.active_topic = user["active_topic"]
     
     async def create_topic(self, text):
         db = await db_create_pool()

@@ -6,13 +6,13 @@ SET TIMEZONE='UTC';
 CREATE TABLE users 
 (
     id              int         not null            primary key,
-    username        text,
     topics          int[],
-    companion       int,                            default -1,
+    companion       int                             default -1,
+    active_topic    int                             default -1
 );
 
 CREATE SEQUENCE topics_id_sequence
-    start 0
+    start 1
     increment 1;
 CREATE TABLE topics
 (
@@ -24,5 +24,8 @@ CREATE TABLE topics
     opened          boolean                         default FALSE,
     -- Fancy tracking information
     discussed_times int                             default 0,
-    rating          int                             default 0,
+    rating          int                             default 0
 )
+
+-- To drop all connections:
+-- SELECT pg_terminate_backend(pg_stat_activity.pid) FROM pg_stat_activity WHERE pg_stat_activity.datname = 'discuss' AND pid <> pg_backend_pid();
