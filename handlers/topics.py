@@ -13,6 +13,7 @@ from init import bot
 from middlewares.basic import NotInDiscussionMiddleware
 from middlewares.loaders import LoadUsersMiddleware, LoadTopicsMiddleware
 from handlers.states import HomeState, MyTopicsState, SurfingTopicsState
+from handlers.main import send_home_page
 from objects.user import users
 from objects.topic import topics
 
@@ -39,7 +40,8 @@ async def send_my_topics_page(id, state):
             f"Status: {status}\n\n"
         )
     topics_kb.add(types.KeyboardButton(text = "Создать новую"))
-    await bot.send_message(id, msg, reply_markup=topics_kb.as_markup())
+    topics_kb.add(types.KeyboardButton(text = "Назад"))
+    await bot.send_message(id, msg, reply_markup=topics_kb.as_markup(resize_keyboard=True))
     await state.set_state(MyTopicsState.main)
 
 
@@ -49,6 +51,8 @@ async def send_topic_page(id, state, topic_id):
     topic_kb.add(types.KeyboardButton(text = "Открыть"))
     topic_kb.add(types.KeyboardButton(text = "Закрыть"))
     topic_kb.add(types.KeyboardButton(text = "Удалить тему"))
+    topic_kb.add(types.KeyboardButton(text = "Назад"))
+    topic_kb.adjust(2, 2)
     topic = topics[topic_id]
     status = "opened" if topic.opened else "closed"
     msg = (
@@ -58,7 +62,7 @@ async def send_topic_page(id, state, topic_id):
         f"Reports: {topic.reports}\n"+
         f"Status: {status}\n\n"
     )
-    await bot.send_message(id, msg, reply_markup=topic_kb.as_markup())
+    await bot.send_message(id, msg, reply_markup=topic_kb.as_markup(resize_keyboard=True))
     await state.set_state(MyTopicsState.topic)
     await state.update_data(topic_id = topic_id)
 
@@ -69,10 +73,29 @@ async def my_topics_page(message: types.Message, state: FSMContext):
     id = message.from_user.id
     await send_my_topics_page(id, state)
 
+
+@router.message(MyTopicsState.main, 
+                lambda message: message.text.isdigit())
+async def topic_page(message: types.Message, state: FSMContext):
+    id = message.from_user.id
+    idx = int(message.text) - 1
+    if not (0 <= idx and idx < len(users[id].topics)):
+        return
+    topic_id = users[id].topics[int(message.text) - 1]
+    await send_topic_page(id, state, topic_id)
+
+
 @router.message(MyTopicsState.main,
                 lambda message: message.text == "Создать новую")
 async def create_topic_page(message: types.Message, state: FSMContext):
     id = message.from_user.id
+    if len(users[id].topics) == config.USER_MAX_TOPICS:
+        await message.answer(
+            (
+                "У вас максимально доступное число созданных тем"
+            )
+        )
+        return
     await message.answer(
         (
             "Придумайте тему для обсуждения\n"+
@@ -81,6 +104,14 @@ async def create_topic_page(message: types.Message, state: FSMContext):
         reply_markup=ReplyKeyboardRemove()
     )
     await state.set_state(MyTopicsState.creating)
+
+
+@router.message(MyTopicsState.main,
+                lambda message: message.text == "Назад")
+async def back_from_my_topics_page(message: types.Message, state: FSMContext):
+    id = message.from_user.id
+    await send_home_page(id, state)
+
 
 @router.message(MyTopicsState.creating)
 async def handle_topic_text_page(message: types.Message, state: FSMContext):
@@ -102,18 +133,12 @@ async def handle_topic_text_page(message: types.Message, state: FSMContext):
             )
         )
 
-@router.message(MyTopicsState.main, 
-                lambda message: message.text != "Создать новую")
-async def topic_page(message: types.Message, state: FSMContext):
-    id = message.from_user.id
-    topic_id = users[id].topics[int(message.text)]
-    await send_topic_page(id, state, topic_id)
 
 @router.message(MyTopicsState.topic,
                 lambda message: message.text == "Открыть")
 async def open_topic_page(message: types.Message, state: FSMContext):
     id = message.from_user.id
-    topic_id = state.get_data()["topic_id"]
+    topic_id = (await state.get_data())["topic_id"]
     await users[id].open_topic(topic_id)
     await message.answer(
         (
@@ -122,11 +147,12 @@ async def open_topic_page(message: types.Message, state: FSMContext):
     )
     await send_topic_page(id, state, topic_id)
 
+
 @router.message(MyTopicsState.topic,
                 lambda message: message.text == "Закрыть")
 async def close_topic_page(message: types.Message, state: FSMContext):
     id = message.from_user.id
-    topic_id = state.get_data()["topic_id"]
+    topic_id = (await state.get_data())["topic_id"]
     await users[id].close_topic(topic_id)
     await message.answer(
         (
@@ -135,8 +161,23 @@ async def close_topic_page(message: types.Message, state: FSMContext):
     )
     await send_topic_page(id, state, topic_id)
 
+
 @router.message(MyTopicsState.topic,
                 lambda message: message.text == "Удалить тему")
 async def delete_topic_page(message:types.Message, state: FSMContext):
     id = message.from_user.id
-    topic_id = state.get_data(topic_id)
+    topic_id = (await state.get_data())["topic_id"]
+    await users[id].delete_topic(topic_id)
+    await message.answer(
+        (
+            "Вы удалили тему"
+        )
+    )
+    await send_my_topics_page(id, state)
+
+
+@router.message(MyTopicsState.topic,
+                lambda message: message.text == "Назад")
+async def back_from_topic_page(message: types.Message, state: FSMContext):
+    id = message.from_user.id
+    await send_my_topics_page(id, state)

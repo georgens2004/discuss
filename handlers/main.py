@@ -31,7 +31,7 @@ async def send_home_page(id, state):
             "/start - поиск тем для обсуждения\n"+
             "/help - помощь по использованию"
         ), 
-        reply_markup=home_page_kb.as_markup()
+        reply_markup=home_page_kb.as_markup(resize_keyboard=True)
     )
     await state.set_state(HomeState.main)
 
@@ -83,7 +83,7 @@ async def start_surfing_topics_page(message: types.Message, state: FSMContext):
         (
             "Поиск тем для обсуждения:"
         ),
-        reply_markup=topic_choosing_kb.as_markup()
+        reply_markup=topic_choosing_kb.as_markup(resize_keyboard=True)
     )
     await send_surfing_topics_page(id, state)
 
@@ -97,7 +97,7 @@ async def surfing_topics_page(message: types.Message, state: FSMContext):
 
 @router.message(SurfingTopicsState.choosing,
                 lambda message: message.text == "На главную")
-async def from_surfing_topics_to_main_page(message: types.Message, state: FSMContext):
+async def back_from_surfing_topics_page(message: types.Message, state: FSMContext):
     id = message.from_user.id
     await send_home_page(id, state)
 

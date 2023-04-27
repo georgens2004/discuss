@@ -15,6 +15,12 @@ class User:
         self.active_topic = user["active_topic"]
     
     async def create_topic(self, text):
+        idx = 0
+        while idx < len(text):
+            if text[idx] == "'":
+                text = text[:idx] + "'" + text[idx:]
+                idx += 1
+            idx += 1
         
         db = await db_create_pool()
         topic_id = await db.fetchval("SELECT nextval('topics_id_sequence')")
@@ -29,8 +35,8 @@ class User:
         db = await db_create_pool()
         await db.execute(f"DELETE FROM topics WHERE id = {topic_id}")
         self.topics.remove(topic_id)
-        topics.remove(topic_id)
-        await db.execute(f"UPDATE users SET topics = {self.topics} WHERE id = {self.id}")
+        del topics[topic_id]
+        await db.execute(f"UPDATE users SET topics = array_remove(topics, {topic_id}) WHERE id = {self.id}")
         await db.close()
 
     async def open_topic(self, topic_id):
@@ -47,9 +53,9 @@ class User:
     
     async def get_random_topic(self):
         ids = []
-        for topic in topics:
-            if topic.author != self.id and topic.opened and topic.companion == -1:
-                ids.append(topic.id)
+        for id in topics:
+            if topics[id].author != self.id and topics[id].opened and topics[id].companion == -1:
+                ids.append(id)
         if len(ids) == 0:
             return -1
         return await random_choice(ids)
