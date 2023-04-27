@@ -14,17 +14,19 @@ CREATE TABLE users
 CREATE SEQUENCE topics_id_sequence
     start 1
     increment 1;
+
 CREATE TABLE topics
 (
     id              int         not null            primary key,
     author          int         not null,
-    text            text        not null,
+    text            text,
     companion       int                             default -1,
     -- Additional features
     opened          boolean                         default FALSE,
     -- Fancy tracking information
     discussed_times int                             default 0,
-    rating          int                             default 0
+    rating          int                             default 0,
+    reports         int                             default 0
 )
 
 -- To drop all connections:

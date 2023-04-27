@@ -19,9 +19,10 @@ async def main():
             format="{time:YYYY-MM-DD at HH:mm:ss} | {level} | {message}",
             level="DEBUG")
     
-    from handlers import main, admin
+    from handlers import main, topics, admin
 
     dp.include_router(main.router)
+    dp.include_router(topics.router)
     dp.include_router(admin.router)
 
     await bot.delete_webhook(drop_pending_updates = True)

@@ -29,9 +29,14 @@ async def db_create_pool():
         database = PG_DATABASE,
     )
 
+from objects.user import users
+from objects.topic import Topic, topics
 
-'''
-if __name__ == '__main__':
-    loop = asyncio.get_event_loop()
-    loop.run_until_complete(db_create())
-'''
+async def db_load_all_topics():
+    global topics
+    global opened_topics
+    db = await db_create_pool()
+    all_topics = await db.fetch("SELECT * FROM topics")
+    for topic in all_topics:
+        topics[topic["id"]] = Topic(topic)
+    await db.close()

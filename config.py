@@ -17,3 +17,7 @@ PG_USER = os.getenv('PG_USER')
 PG_PASSWORD = os.getenv('PG_PASSWORD')
 PG_DATABASE = os.getenv('PG_DATABASE')
 
+# Topics
+
+TOPIC_MIN_LENGTH = 3
+TOPIC_MAX_LENGTH = 250
