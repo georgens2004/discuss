@@ -5,10 +5,12 @@ from loguru import logger
 
 from objects.user import users
 from sql.base import db_create
-from middlewares.basic import UserIsAdminMiddleware
+from middlewares.admin import UserIsAdminMiddleware
+from filters.basic import NotInDiscussionFilter
 
 router = Router()
-router.message.middleware(UserIsAdminMiddleware())
+router.message.outer_middleware(UserIsAdminMiddleware())
+#router.message.filter(NotInDiscussionFilter())
 
 @router.message(Command(commands=["db_init"]))
 async def init_db(message: types.Message):

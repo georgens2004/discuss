@@ -13,6 +13,13 @@ class User:
         self.topics = user["topics"] if user["topics"] is not None else []
         self.companion = user["companion"]
         self.active_topic = user["active_topic"]
+        self.opened = user["opened"]
+    
+    async def get_ready(self):
+        self.opened = True
+    
+    async def get_busy(self):
+        self.opened = False
     
     async def create_topic(self, text):
         idx = 0
@@ -51,12 +58,36 @@ class User:
         topics[topic_id].opened = False
         await db.close()
     
-    async def get_random_topic(self):
+    def get_random_topic(self):
         ids = []
         for id in topics:
-            if topics[id].author != self.id and topics[id].opened and topics[id].companion == -1:
+            if topics[id].author != self.id and users[topics[id].author].opened and topics[id].opened and topics[id].companion == -1:
                 ids.append(id)
         if len(ids) == 0:
             return -1
-        return await random_choice(ids)
+        return random_choice(ids)
     
+    async def start_discussion(self, topic_id):
+        db = await db_create_pool()
+        topics[topic_id].companion = self.id
+        await db.execute(f"UPDATE topics SET companion = {self.id}")
+        author = topics[topic_id].author
+        users[author].companion = self.id
+        users[author].active_topic = topic_id
+        self.companion = author
+        self.active_topic = topic_id
+        await db.close()
+    
+    async def stop_discussion(self):
+        db = await db_create_pool()
+        topic_id = self.active_topic
+        companion = self.companion
+        users[companion].active_topic = -1
+        users[companion].companion = -1
+        self.active_topic = -1
+        self.companion = -1
+
+        topics[topic_id].companion = -1
+        await db.execute("UPDATE topics SET companion = -1")
+        await db.close()
+        

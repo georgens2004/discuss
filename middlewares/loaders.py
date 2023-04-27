@@ -1,6 +1,7 @@
 from typing import Callable, Dict, Any, Awaitable
 from aiogram import BaseMiddleware
 from aiogram.types import Message
+from loguru import logger
 
 from sql.base import db_create_pool, db_load_all_topics
 from objects.user import User, users
@@ -21,6 +22,7 @@ class LoadUsersMiddleware(BaseMiddleware):
             for user in all_users:
                 users[user["id"]] = User(user)
             await db.close()
+            logger.info("users loaded")
         user_id = data["event_from_user"].id
         if user_id not in users:
             db = await db_create_pool()
@@ -28,7 +30,6 @@ class LoadUsersMiddleware(BaseMiddleware):
             user = await db.fetchrow(f"SELECT * FROM users WHERE id = {user_id}")
             users[user_id] = User(user)
             await db.close()
-
         return await handler(event, data)
 
 class LoadTopicsMiddleware(BaseMiddleware):
@@ -40,4 +41,5 @@ class LoadTopicsMiddleware(BaseMiddleware):
     ) -> Any:
         if len(topics) == 0:
             await db_load_all_topics()
+            logger.info("topics loaded")
         return await handler(event, data)

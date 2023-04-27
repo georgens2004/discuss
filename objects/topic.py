@@ -14,4 +14,14 @@ class Topic:
         self.rating = topic["rating"]
         self.reports = topic["reports"]
     
-        
+    async def report(self):
+        db = await db_create_pool()
+        self.reports += 1
+        await db.execute(f"UPDATE topics SET reports = {self.reports} WHERE id = {self.id}")
+        await db.close()
+    
+    async def change_rating(self, diff):
+        db = await db_create_pool()
+        self.rating += diff
+        await db.execute(f"UPDATE topics SET rating = {self.rating} WHERE id = {self.id}")
+        await db.close()

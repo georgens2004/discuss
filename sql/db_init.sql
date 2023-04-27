@@ -8,7 +8,8 @@ CREATE TABLE users
     id              int         not null            primary key,
     topics          int[],
     companion       int                             default -1,
-    active_topic    int                             default -1
+    active_topic    int                             default -1,
+    opened          boolean                         default TRUE
 );
 
 CREATE SEQUENCE topics_id_sequence

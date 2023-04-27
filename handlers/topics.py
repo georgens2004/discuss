@@ -10,7 +10,7 @@ from loguru import logger
 import config
 
 from init import bot
-from middlewares.basic import NotInDiscussionMiddleware
+from filters.basic import NotInDiscussionFilter
 from middlewares.loaders import LoadUsersMiddleware, LoadTopicsMiddleware
 from handlers.states import HomeState, MyTopicsState, SurfingTopicsState
 from handlers.main import send_home_page
@@ -18,9 +18,9 @@ from objects.user import users
 from objects.topic import topics
 
 router = Router()
-router.message.middleware(LoadUsersMiddleware())
-router.message.middleware(LoadTopicsMiddleware())
-router.message.middleware(NotInDiscussionMiddleware())
+router.message.outer_middleware(LoadUsersMiddleware())
+router.message.outer_middleware(LoadTopicsMiddleware())
+router.message.filter(NotInDiscussionFilter())
 
 
 async def send_my_topics_page(id, state):
@@ -35,8 +35,7 @@ async def send_my_topics_page(id, state):
         msg += (
             f"{i + 1}: {topic.text}\n"+
             f"Rating: {topic.rating}\n"+
-            f"Discussed: {topic.discussed_times}"+
-            f"Reports: {topic.reports}\n"+
+            f"Discussed: {topic.discussed_times}\n"+
             f"Status: {status}\n\n"
         )
     topics_kb.add(types.KeyboardButton(text = "Создать новую"))
@@ -58,8 +57,7 @@ async def send_topic_page(id, state, topic_id):
     msg = (
         f"{topic.text}\n"+
         f"Rating: {topic.rating}\n"+
-        f"Discussed: {topic.discussed_times}"+
-        f"Reports: {topic.reports}\n"+
+        f"Discussed: {topic.discussed_times}\n"+
         f"Status: {status}\n\n"
     )
     await bot.send_message(id, msg, reply_markup=topic_kb.as_markup(resize_keyboard=True))
@@ -167,6 +165,8 @@ async def close_topic_page(message: types.Message, state: FSMContext):
 async def delete_topic_page(message:types.Message, state: FSMContext):
     id = message.from_user.id
     topic_id = (await state.get_data())["topic_id"]
+    if topic_id not in topics:
+        return
     await users[id].delete_topic(topic_id)
     await message.answer(
         (
