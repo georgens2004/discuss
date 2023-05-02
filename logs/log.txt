@@ -261,3 +261,7 @@
 2023-05-02 at 21:30:01 | INFO | 952859259 has reported topic 7
 2023-05-02 at 21:37:08 | INFO | 952859259 set his/her state as 'busy'
 2023-05-02 at 21:37:11 | INFO | 952859259 set his/her state as 'ready'
+2023-05-02 at 21:41:35 | INFO | users loaded
+2023-05-02 at 21:41:35 | INFO | topics loaded
+2023-05-02 at 21:41:35 | INFO | 952859259 --> help page
+2023-05-02 at 21:41:41 | INFO | 952859259 --> help page

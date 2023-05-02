@@ -31,7 +31,7 @@ Here you can see all bots commands starting with '/'
 
 ![Screenshot](screenshots/menu_button.png)
 
-## Help page(`/help`)
+## Help page (`/help`)
 
 Command list and some explanations
 
