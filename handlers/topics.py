@@ -11,7 +11,7 @@ import config
 
 from init import bot
 from filters.basic import NotInDiscussionFilter
-from middlewares.loaders import LoadUsersMiddleware, LoadTopicsMiddleware
+from middlewares.loaders import LoadUsersMiddleware, LoadTopicsMiddleware, AntiSpamMiddleware
 from handlers.states import HomeState, MyTopicsState, SurfingTopicsState
 from handlers.main import send_home_page
 from objects.user import users
@@ -20,14 +20,16 @@ from objects.topic import topics
 router = Router()
 router.message.outer_middleware(LoadUsersMiddleware())
 router.message.outer_middleware(LoadTopicsMiddleware())
+router.message.middleware(AntiSpamMiddleware())
 router.message.filter(NotInDiscussionFilter())
 
 
 async def send_my_topics_page(id, state):
+    logger.info(f"{id} --> my topics page")
     await state.clear()
     topics_kb = ReplyKeyboardBuilder()
     user = users[id]
-    msg = "Ваши темы для обсуждения:\n\n"
+    msg = "<i>Ваши темы для обсуждения:</i>\n\n"
     for i in range(len(user.topics)):
         topics_kb.add(types.KeyboardButton(text = f"{i + 1}"))
         topic = topics[user.topics[i]]
@@ -40,11 +42,16 @@ async def send_my_topics_page(id, state):
         )
     topics_kb.add(types.KeyboardButton(text = "Создать новую"))
     topics_kb.add(types.KeyboardButton(text = "Назад"))
+    if len(user.topics) > 0:
+        topics_kb.adjust(len(user.topics), 2)
+    else:
+        topics_kb.adjust(2)
     await bot.send_message(id, msg, reply_markup=topics_kb.as_markup(resize_keyboard=True))
     await state.set_state(MyTopicsState.main)
 
 
 async def send_topic_page(id, state, topic_id):
+    logger.info(f"{id} --> topic {topic_id} page")
     await state.clear()
     topic_kb = ReplyKeyboardBuilder()
     topic_kb.add(types.KeyboardButton(text = "Открыть"))
@@ -90,14 +97,18 @@ async def create_topic_page(message: types.Message, state: FSMContext):
     if len(users[id].topics) == config.USER_MAX_TOPICS:
         await message.answer(
             (
-                "У вас максимально доступное число созданных тем"
+                "<i>"+
+                "У вас максимально доступное число созданных тем"+
+                "</i>"
             )
         )
         return
     await message.answer(
         (
+            "<i>"+    
             "Придумайте тему для обсуждения\n"+
-            f"Число символов должно быть от {config.TOPIC_MIN_LENGTH} до {config.TOPIC_MAX_LENGTH}"
+            f"Число символов должно быть от {config.TOPIC_MIN_LENGTH} до {config.TOPIC_MAX_LENGTH}"+
+            "</i>"
         ),
         reply_markup=ReplyKeyboardRemove()
     )
@@ -119,15 +130,19 @@ async def handle_topic_text_page(message: types.Message, state: FSMContext):
         await users[id].create_topic(message.text)
         await message.answer(
             (
+                "<i>"+
                 "Вы создали новую тему для разговора.\n"+
-                "Откройте её, чтобы люди смогли начать общение с вами по ней"
+                "Откройте её, чтобы люди смогли начать общение с вами по ней"+
+                "</i>"
             )
         )
         await send_my_topics_page(id, state)
     else:
         await message.answer(
             (
-                "Текст не подходит под требования. Попробуйте ещё раз"
+                "<i>"+
+                "Текст не подходит под требования. Попробуйте ещё раз"+
+                "</i>"
             )
         )
 
@@ -140,7 +155,9 @@ async def open_topic_page(message: types.Message, state: FSMContext):
     await users[id].open_topic(topic_id)
     await message.answer(
         (
-            "Тема открыта. Теперь другие люди будут находить её в поиске"
+            "<i>"+
+            "Тема открыта. Теперь другие люди будут находить её в поиске"+
+            "</i>"
         )
     )
     await send_topic_page(id, state, topic_id)
@@ -153,8 +170,10 @@ async def close_topic_page(message: types.Message, state: FSMContext):
     topic_id = (await state.get_data())["topic_id"]
     await users[id].close_topic(topic_id)
     await message.answer(
-        (
-            "Тема закрыта. Больше никто не будет получать её в поиске"
+        (   
+            "<i>"+
+            "Тема закрыта. Больше никто не будет получать её в поиске"+
+            "</i>"
         )
     )
     await send_topic_page(id, state, topic_id)
@@ -170,7 +189,9 @@ async def delete_topic_page(message:types.Message, state: FSMContext):
     await users[id].delete_topic(topic_id)
     await message.answer(
         (
-            "Вы удалили тему"
+            "<i>"+
+            "Вы удалили тему"+
+            "</i>"
         )
     )
     await send_my_topics_page(id, state)

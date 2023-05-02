@@ -18,7 +18,7 @@ CREATE SEQUENCE topics_id_sequence
 
 CREATE TABLE topics
 (
-    id              int         not null            primary key,
+    id              bigint      not null            primary key,
     author          int         not null,
     text            text,
     companion       int                             default -1,

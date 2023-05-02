@@ -1,581 +1,263 @@
-2023-04-27 at 16:32:23 | INFO | users loaded
-2023-04-27 at 16:32:23 | INFO | topics loaded
-2023-04-27 at 16:32:28 | INFO | 952859259 sent message to companion 3243423
-2023-04-27 at 16:32:38 | INFO | users loaded
-2023-04-27 at 16:32:38 | INFO | topics loaded
-2023-04-27 at 16:32:38 | WARNING | 952859259 is creating the database
-2023-04-27 at 16:32:38 | INFO | Connecting to db
-2023-04-27 at 16:32:39 | INFO | Created database tables
-2023-04-27 at 16:57:37 | INFO | users loaded
-2023-04-27 at 16:57:37 | INFO | topics loaded
-2023-04-27 at 16:57:37 | INFO | topics loaded
-2023-04-27 at 16:57:37 | INFO | 952859259 --> home page
-2023-04-27 at 16:57:39 | INFO | topics loaded
-2023-04-27 at 16:57:39 | INFO | topics loaded
-2023-04-27 at 16:58:05 | INFO | users loaded
-2023-04-27 at 16:58:05 | INFO | topics loaded
-2023-04-27 at 16:58:05 | INFO | topics loaded
-2023-04-27 at 16:58:06 | INFO | topics loaded
-2023-04-27 at 16:58:06 | WARNING | 952859259 is creating the database
-2023-04-27 at 16:58:06 | INFO | Connecting to db
-2023-04-27 at 16:58:06 | INFO | Created database tables
-2023-04-27 at 16:58:47 | INFO | users loaded
-2023-04-27 at 16:58:47 | INFO | users loaded
-2023-04-27 at 16:58:48 | INFO | topics loaded
-2023-04-27 at 16:58:48 | INFO | topics loaded
-2023-04-27 at 16:58:48 | INFO | topics loaded
-2023-04-27 at 16:58:48 | INFO | topics loaded
-2023-04-27 at 16:58:48 | INFO | topics loaded
-2023-04-27 at 16:58:48 | INFO | topics loaded
-2023-04-27 at 16:58:48 | INFO | 952859259 --> home page
-2023-04-27 at 16:58:52 | INFO | topics loaded
-2023-04-27 at 16:58:53 | INFO | topics loaded
-2023-04-27 at 16:58:53 | INFO | topics loaded
-2023-04-27 at 16:58:53 | INFO | topics loaded
-2023-04-27 at 16:58:54 | INFO | topics loaded
-2023-04-27 at 16:58:54 | INFO | topics loaded
-2023-04-27 at 16:58:56 | INFO | topics loaded
-2023-04-27 at 16:58:56 | INFO | topics loaded
-2023-04-27 at 16:58:56 | INFO | topics loaded
-2023-04-27 at 16:58:59 | INFO | 466198058 --> home page
-2023-04-27 at 16:59:28 | INFO | 952859259 --> home page
-2023-04-27 at 16:59:41 | INFO | 952859259 --> home page
-2023-04-27 at 16:59:49 | INFO | 952859259 has reported topic 1
-2023-04-27 at 16:59:50 | INFO | 466198058 --> home page
-2023-04-27 at 16:59:53 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 16:59:58 | INFO | 952859259 sent message to companion 466198058
-2023-04-27 at 17:00:02 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:00:05 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:00:05 | INFO | 952859259 sent message to companion 466198058
-2023-04-27 at 17:00:07 | INFO | 952859259 sent message to companion 466198058
-2023-04-27 at 17:00:11 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:00:17 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:00:21 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:00:44 | INFO | 952859259 sent message to companion 466198058
-2023-04-27 at 17:01:01 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:01:03 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:01:07 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:01:09 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:01:12 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:01:54 | INFO | users loaded
-2023-04-27 at 17:01:54 | INFO | topics loaded
-2023-04-27 at 17:02:01 | WARNING | 952859259 is creating the database
-2023-04-27 at 17:02:01 | INFO | Connecting to db
-2023-04-27 at 17:02:01 | INFO | Created database tables
-2023-04-27 at 17:02:02 | INFO | users loaded
-2023-04-27 at 17:02:02 | INFO | users loaded
-2023-04-27 at 17:02:52 | INFO | users loaded
-2023-04-27 at 17:02:52 | INFO | topics loaded
-2023-04-27 at 17:02:52 | INFO | topics loaded
-2023-04-27 at 17:02:53 | INFO | topics loaded
-2023-04-27 at 17:02:53 | INFO | topics loaded
-2023-04-27 at 17:02:53 | INFO | topics loaded
-2023-04-27 at 17:02:53 | WARNING | 952859259 is creating the database
-2023-04-27 at 17:02:53 | INFO | Connecting to db
-2023-04-27 at 17:02:53 | INFO | Created database tables
-2023-04-27 at 17:02:54 | INFO | users loaded
-2023-04-27 at 17:02:55 | INFO | topics loaded
-2023-04-27 at 17:02:55 | INFO | topics loaded
-2023-04-27 at 17:02:56 | INFO | topics loaded
-2023-04-27 at 17:02:56 | INFO | topics loaded
-2023-04-27 at 17:02:56 | INFO | 952859259 --> home page
-2023-04-27 at 17:02:57 | INFO | topics loaded
-2023-04-27 at 17:02:57 | INFO | topics loaded
-2023-04-27 at 17:02:57 | INFO | topics loaded
-2023-04-27 at 17:02:57 | INFO | topics loaded
-2023-04-27 at 17:02:57 | INFO | topics loaded
-2023-04-27 at 17:02:57 | INFO | topics loaded
-2023-04-27 at 17:02:57 | INFO | topics loaded
-2023-04-27 at 17:02:57 | INFO | topics loaded
-2023-04-27 at 17:02:58 | INFO | topics loaded
-2023-04-27 at 17:02:58 | INFO | topics loaded
-2023-04-27 at 17:02:58 | INFO | topics loaded
-2023-04-27 at 17:02:58 | INFO | topics loaded
-2023-04-27 at 17:02:58 | INFO | topics loaded
-2023-04-27 at 17:02:58 | INFO | topics loaded
-2023-04-27 at 17:02:58 | INFO | topics loaded
-2023-04-27 at 17:02:58 | INFO | topics loaded
-2023-04-27 at 17:02:58 | INFO | topics loaded
-2023-04-27 at 17:02:58 | INFO | topics loaded
-2023-04-27 at 17:02:59 | INFO | topics loaded
-2023-04-27 at 17:02:59 | INFO | topics loaded
-2023-04-27 at 17:02:59 | INFO | topics loaded
-2023-04-27 at 17:02:59 | INFO | topics loaded
-2023-04-27 at 17:02:59 | INFO | topics loaded
-2023-04-27 at 17:02:59 | INFO | topics loaded
-2023-04-27 at 17:02:59 | INFO | topics loaded
-2023-04-27 at 17:02:59 | INFO | topics loaded
-2023-04-27 at 17:02:59 | INFO | topics loaded
-2023-04-27 at 17:02:59 | INFO | topics loaded
-2023-04-27 at 17:02:59 | INFO | topics loaded
-2023-04-27 at 17:02:59 | INFO | topics loaded
-2023-04-27 at 17:03:00 | INFO | topics loaded
-2023-04-27 at 17:03:00 | INFO | topics loaded
-2023-04-27 at 17:03:00 | INFO | topics loaded
-2023-04-27 at 17:03:00 | INFO | topics loaded
-2023-04-27 at 17:03:00 | INFO | topics loaded
-2023-04-27 at 17:03:00 | INFO | topics loaded
-2023-04-27 at 17:03:00 | INFO | topics loaded
-2023-04-27 at 17:03:00 | INFO | topics loaded
-2023-04-27 at 17:03:00 | INFO | topics loaded
-2023-04-27 at 17:03:00 | INFO | topics loaded
-2023-04-27 at 17:03:00 | INFO | topics loaded
-2023-04-27 at 17:03:00 | INFO | topics loaded
-2023-04-27 at 17:03:01 | INFO | topics loaded
-2023-04-27 at 17:03:01 | INFO | topics loaded
-2023-04-27 at 17:03:01 | INFO | topics loaded
-2023-04-27 at 17:03:01 | INFO | topics loaded
-2023-04-27 at 17:03:01 | INFO | topics loaded
-2023-04-27 at 17:03:01 | INFO | topics loaded
-2023-04-27 at 17:03:01 | INFO | topics loaded
-2023-04-27 at 17:03:01 | INFO | topics loaded
-2023-04-27 at 17:03:01 | INFO | topics loaded
-2023-04-27 at 17:03:01 | INFO | topics loaded
-2023-04-27 at 17:03:01 | INFO | topics loaded
-2023-04-27 at 17:03:01 | INFO | topics loaded
-2023-04-27 at 17:03:02 | INFO | topics loaded
-2023-04-27 at 17:03:02 | INFO | topics loaded
-2023-04-27 at 17:03:02 | INFO | topics loaded
-2023-04-27 at 17:03:02 | INFO | topics loaded
-2023-04-27 at 17:03:02 | INFO | topics loaded
-2023-04-27 at 17:03:02 | INFO | topics loaded
-2023-04-27 at 17:03:02 | INFO | topics loaded
-2023-04-27 at 17:03:02 | INFO | topics loaded
-2023-04-27 at 17:03:02 | INFO | topics loaded
-2023-04-27 at 17:03:02 | INFO | topics loaded
-2023-04-27 at 17:03:02 | INFO | topics loaded
-2023-04-27 at 17:03:03 | INFO | topics loaded
-2023-04-27 at 17:03:03 | INFO | topics loaded
-2023-04-27 at 17:03:03 | INFO | topics loaded
-2023-04-27 at 17:03:03 | INFO | topics loaded
-2023-04-27 at 17:03:03 | INFO | topics loaded
-2023-04-27 at 17:03:03 | INFO | topics loaded
-2023-04-27 at 17:03:03 | INFO | topics loaded
-2023-04-27 at 17:03:03 | INFO | topics loaded
-2023-04-27 at 17:03:03 | INFO | topics loaded
-2023-04-27 at 17:03:03 | INFO | topics loaded
-2023-04-27 at 17:03:03 | INFO | topics loaded
-2023-04-27 at 17:03:04 | INFO | topics loaded
-2023-04-27 at 17:03:04 | INFO | topics loaded
-2023-04-27 at 17:03:04 | INFO | topics loaded
-2023-04-27 at 17:03:04 | INFO | topics loaded
-2023-04-27 at 17:03:04 | INFO | topics loaded
-2023-04-27 at 17:03:04 | INFO | topics loaded
-2023-04-27 at 17:03:04 | INFO | topics loaded
-2023-04-27 at 17:03:04 | INFO | topics loaded
-2023-04-27 at 17:03:04 | INFO | topics loaded
-2023-04-27 at 17:03:04 | INFO | topics loaded
-2023-04-27 at 17:03:05 | INFO | topics loaded
-2023-04-27 at 17:03:05 | INFO | topics loaded
-2023-04-27 at 17:03:05 | INFO | topics loaded
-2023-04-27 at 17:03:05 | INFO | topics loaded
-2023-04-27 at 17:03:05 | INFO | topics loaded
-2023-04-27 at 17:03:05 | INFO | topics loaded
-2023-04-27 at 17:03:05 | INFO | topics loaded
-2023-04-27 at 17:03:05 | INFO | topics loaded
-2023-04-27 at 17:03:05 | INFO | topics loaded
-2023-04-27 at 17:03:05 | INFO | topics loaded
-2023-04-27 at 17:03:05 | INFO | topics loaded
-2023-04-27 at 17:03:05 | INFO | topics loaded
-2023-04-27 at 17:03:05 | INFO | topics loaded
-2023-04-27 at 17:03:05 | INFO | topics loaded
-2023-04-27 at 17:03:06 | INFO | topics loaded
-2023-04-27 at 17:03:06 | INFO | topics loaded
-2023-04-27 at 17:03:06 | INFO | topics loaded
-2023-04-27 at 17:03:07 | INFO | topics loaded
-2023-04-27 at 17:03:07 | INFO | topics loaded
-2023-04-27 at 17:03:07 | INFO | topics loaded
-2023-04-27 at 17:03:07 | INFO | topics loaded
-2023-04-27 at 17:03:07 | INFO | topics loaded
-2023-04-27 at 17:03:07 | INFO | topics loaded
-2023-04-27 at 17:03:07 | INFO | topics loaded
-2023-04-27 at 17:03:07 | INFO | topics loaded
-2023-04-27 at 17:03:07 | INFO | topics loaded
-2023-04-27 at 17:03:07 | INFO | topics loaded
-2023-04-27 at 17:03:07 | INFO | topics loaded
-2023-04-27 at 17:03:08 | INFO | topics loaded
-2023-04-27 at 17:03:08 | INFO | topics loaded
-2023-04-27 at 17:03:08 | INFO | topics loaded
-2023-04-27 at 17:03:09 | INFO | topics loaded
-2023-04-27 at 17:03:09 | INFO | topics loaded
-2023-04-27 at 17:03:09 | INFO | topics loaded
-2023-04-27 at 17:03:09 | INFO | topics loaded
-2023-04-27 at 17:03:09 | INFO | topics loaded
-2023-04-27 at 17:03:09 | INFO | topics loaded
-2023-04-27 at 17:03:10 | INFO | topics loaded
-2023-04-27 at 17:03:10 | INFO | topics loaded
-2023-04-27 at 17:03:10 | INFO | topics loaded
-2023-04-27 at 17:03:10 | INFO | topics loaded
-2023-04-27 at 17:03:10 | INFO | topics loaded
-2023-04-27 at 17:03:11 | INFO | topics loaded
-2023-04-27 at 17:03:11 | INFO | topics loaded
-2023-04-27 at 17:03:11 | INFO | topics loaded
-2023-04-27 at 17:03:11 | INFO | topics loaded
-2023-04-27 at 17:03:11 | INFO | topics loaded
-2023-04-27 at 17:03:12 | INFO | topics loaded
-2023-04-27 at 17:03:13 | INFO | topics loaded
-2023-04-27 at 17:03:13 | INFO | topics loaded
-2023-04-27 at 17:03:14 | INFO | topics loaded
-2023-04-27 at 17:03:14 | INFO | topics loaded
-2023-04-27 at 17:03:14 | INFO | topics loaded
-2023-04-27 at 17:03:14 | INFO | topics loaded
-2023-04-27 at 17:03:17 | INFO | topics loaded
-2023-04-27 at 17:03:17 | INFO | topics loaded
-2023-04-27 at 17:03:18 | INFO | topics loaded
-2023-04-27 at 17:03:18 | INFO | topics loaded
-2023-04-27 at 17:03:18 | INFO | topics loaded
-2023-04-27 at 17:03:18 | INFO | 466198058 --> home page
-2023-04-27 at 17:03:18 | INFO | topics loaded
-2023-04-27 at 17:03:18 | INFO | 466198058 --> home page
-2023-04-27 at 17:03:18 | INFO | topics loaded
-2023-04-27 at 17:03:18 | INFO | topics loaded
-2023-04-27 at 17:03:18 | INFO | topics loaded
-2023-04-27 at 17:03:18 | INFO | topics loaded
-2023-04-27 at 17:03:18 | WARNING | 466198058 tried to access admin functional
-2023-04-27 at 17:03:18 | INFO | topics loaded
-2023-04-27 at 17:03:18 | INFO | topics loaded
-2023-04-27 at 17:03:18 | WARNING | 466198058 tried to access admin functional
-2023-04-27 at 17:03:19 | INFO | topics loaded
-2023-04-27 at 17:03:19 | INFO | topics loaded
-2023-04-27 at 17:03:19 | INFO | topics loaded
-2023-04-27 at 17:03:19 | INFO | topics loaded
-2023-04-27 at 17:03:19 | INFO | topics loaded
-2023-04-27 at 17:03:19 | INFO | topics loaded
-2023-04-27 at 17:03:19 | INFO | topics loaded
-2023-04-27 at 17:03:19 | WARNING | 466198058 tried to access admin functional
-2023-04-27 at 17:03:19 | INFO | topics loaded
-2023-04-27 at 17:03:19 | INFO | topics loaded
-2023-04-27 at 17:03:19 | WARNING | 466198058 tried to access admin functional
-2023-04-27 at 17:03:19 | INFO | topics loaded
-2023-04-27 at 17:03:19 | INFO | topics loaded
-2023-04-27 at 17:03:19 | INFO | topics loaded
-2023-04-27 at 17:03:19 | INFO | 466198058 --> home page
-2023-04-27 at 17:03:19 | INFO | topics loaded
-2023-04-27 at 17:03:19 | INFO | topics loaded
-2023-04-27 at 17:03:19 | INFO | topics loaded
-2023-04-27 at 17:03:19 | WARNING | 466198058 tried to access admin functional
-2023-04-27 at 17:03:19 | INFO | topics loaded
-2023-04-27 at 17:03:20 | INFO | topics loaded
-2023-04-27 at 17:03:20 | INFO | topics loaded
-2023-04-27 at 17:03:20 | WARNING | 466198058 tried to access admin functional
-2023-04-27 at 17:03:20 | INFO | topics loaded
-2023-04-27 at 17:03:20 | INFO | topics loaded
-2023-04-27 at 17:03:20 | INFO | topics loaded
-2023-04-27 at 17:03:20 | WARNING | 466198058 tried to access admin functional
-2023-04-27 at 17:03:20 | INFO | topics loaded
-2023-04-27 at 17:03:20 | INFO | topics loaded
-2023-04-27 at 17:03:20 | INFO | topics loaded
-2023-04-27 at 17:03:20 | INFO | topics loaded
-2023-04-27 at 17:03:20 | INFO | topics loaded
-2023-04-27 at 17:03:20 | INFO | topics loaded
-2023-04-27 at 17:03:20 | INFO | topics loaded
-2023-04-27 at 17:03:20 | INFO | topics loaded
-2023-04-27 at 17:03:20 | INFO | topics loaded
-2023-04-27 at 17:03:20 | WARNING | 466198058 tried to access admin functional
-2023-04-27 at 17:03:20 | INFO | topics loaded
-2023-04-27 at 17:03:20 | INFO | topics loaded
-2023-04-27 at 17:03:20 | INFO | topics loaded
-2023-04-27 at 17:03:20 | INFO | topics loaded
-2023-04-27 at 17:03:20 | INFO | topics loaded
-2023-04-27 at 17:03:20 | WARNING | 466198058 tried to access admin functional
-2023-04-27 at 17:03:20 | INFO | topics loaded
-2023-04-27 at 17:03:20 | WARNING | 466198058 tried to access admin functional
-2023-04-27 at 17:03:23 | INFO | topics loaded
-2023-04-27 at 17:03:23 | INFO | topics loaded
-2023-04-27 at 17:03:23 | INFO | topics loaded
-2023-04-27 at 17:03:23 | INFO | 466198058 --> home page
-2023-04-27 at 17:03:24 | INFO | topics loaded
-2023-04-27 at 17:03:24 | INFO | topics loaded
-2023-04-27 at 17:03:24 | INFO | topics loaded
-2023-04-27 at 17:03:26 | INFO | topics loaded
-2023-04-27 at 17:03:26 | INFO | topics loaded
-2023-04-27 at 17:03:26 | INFO | topics loaded
-2023-04-27 at 17:03:26 | INFO | 466198058 --> home page
-2023-04-27 at 17:03:44 | INFO | topics loaded
-2023-04-27 at 17:03:44 | INFO | topics loaded
-2023-04-27 at 17:03:44 | INFO | topics loaded
-2023-04-27 at 17:03:48 | INFO | topics loaded
-2023-04-27 at 17:03:48 | INFO | topics loaded
-2023-04-27 at 17:03:48 | INFO | topics loaded
-2023-04-27 at 17:03:48 | INFO | 466198058 --> home page
-2023-04-27 at 17:03:50 | INFO | topics loaded
-2023-04-27 at 17:03:50 | INFO | topics loaded
-2023-04-27 at 17:03:50 | INFO | topics loaded
-2023-04-27 at 17:03:50 | INFO | topics loaded
-2023-04-27 at 17:03:50 | INFO | topics loaded
-2023-04-27 at 17:03:50 | INFO | topics loaded
-2023-04-27 at 17:03:50 | INFO | topics loaded
-2023-04-27 at 17:03:50 | INFO | topics loaded
-2023-04-27 at 17:03:50 | INFO | topics loaded
-2023-04-27 at 17:03:50 | WARNING | 466198058 tried to access admin functional
-2023-04-27 at 17:03:50 | INFO | topics loaded
-2023-04-27 at 17:03:51 | INFO | topics loaded
-2023-04-27 at 17:03:51 | INFO | topics loaded
-2023-04-27 at 17:04:16 | INFO | topics loaded
-2023-04-27 at 17:04:16 | INFO | topics loaded
-2023-04-27 at 17:04:16 | INFO | topics loaded
-2023-04-27 at 17:04:25 | WARNING | 466198058 tried to access admin functional
-2023-04-27 at 17:04:28 | WARNING | 466198058 tried to access admin functional
-2023-04-27 at 17:04:30 | WARNING | 466198058 tried to access admin functional
-2023-04-27 at 17:04:33 | WARNING | 466198058 tried to access admin functional
-2023-04-27 at 17:04:42 | INFO | 952859259 --> home page
-2023-04-27 at 17:04:43 | WARNING | 466198058 tried to access admin functional
-2023-04-27 at 17:04:50 | INFO | 466198058 --> home page
-2023-04-27 at 17:04:51 | INFO | 952859259 --> home page
-2023-04-27 at 17:04:53 | WARNING | 466198058 tried to access admin functional
-2023-04-27 at 17:04:54 | WARNING | 466198058 tried to access admin functional
-2023-04-27 at 17:04:55 | WARNING | 466198058 tried to access admin functional
-2023-04-27 at 17:04:55 | WARNING | 466198058 tried to access admin functional
-2023-04-27 at 17:04:55 | WARNING | 466198058 tried to access admin functional
-2023-04-27 at 17:04:56 | WARNING | 466198058 tried to access admin functional
-2023-04-27 at 17:04:56 | WARNING | 466198058 tried to access admin functional
-2023-04-27 at 17:04:56 | WARNING | 466198058 tried to access admin functional
-2023-04-27 at 17:05:21 | INFO | 466198058 --> home page
-2023-04-27 at 17:06:10 | INFO | users loaded
-2023-04-27 at 17:06:10 | INFO | topics loaded
-2023-04-27 at 17:06:10 | INFO | 952859259 --> home page
-2023-04-27 at 17:06:13 | INFO | 952859259 --> home page
-2023-04-27 at 17:06:17 | INFO | 952859259 --> home page
-2023-04-27 at 17:06:31 | INFO | 952859259 sent message to companion 466198058
-2023-04-27 at 17:06:31 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:06:40 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:06:42 | INFO | 952859259 sent message to companion 466198058
-2023-04-27 at 17:06:46 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:06:58 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:07:19 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:07:33 | INFO | 952859259 sent message to companion 466198058
-2023-04-27 at 17:07:37 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:07:46 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:07:57 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:08:17 | INFO | 952859259 stopped discussion
-2023-04-27 at 17:08:19 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:08:21 | INFO | 466198058 stopped discussion
-2023-04-27 at 17:08:29 | INFO | 952859259 sent message to companion 466198058
-2023-04-27 at 17:08:35 | INFO | 466198058 stopped discussion
-2023-04-27 at 17:08:37 | INFO | 466198058 stopped discussion
-2023-04-27 at 17:08:39 | INFO | 466198058 stopped discussion
-2023-04-27 at 17:08:40 | INFO | 952859259 sent message to companion 466198058
-2023-04-27 at 17:08:44 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:08:46 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:08:46 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:08:46 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:08:46 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:08:46 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:08:47 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:08:47 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:08:47 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:08:47 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:08:48 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:08:48 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:08:48 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:08:48 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:09:58 | INFO | users loaded
-2023-04-27 at 17:09:58 | INFO | topics loaded
-2023-04-27 at 17:09:58 | INFO | 952859259 --> home page
-2023-04-27 at 17:10:04 | WARNING | 952859259 is creating the database
-2023-04-27 at 17:10:04 | INFO | Connecting to db
-2023-04-27 at 17:10:04 | INFO | Created database tables
-2023-04-27 at 17:10:06 | INFO | users loaded
-2023-04-27 at 17:10:06 | INFO | 952859259 --> home page
-2023-04-27 at 17:10:15 | INFO | 952859259 --> home page
-2023-04-27 at 17:10:21 | INFO | 466198058 --> home page
-2023-04-27 at 17:11:00 | INFO | 952859259 sent message to companion 466198058
-2023-04-27 at 17:11:02 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:11:08 | INFO | 952859259 sent message to companion 466198058
-2023-04-27 at 17:11:11 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:11:13 | INFO | 952859259 stopped discussion
-2023-04-27 at 17:11:21 | INFO | 466198058 --> home page
-2023-04-27 at 17:11:26 | INFO | 466198058 --> home page
-2023-04-27 at 17:11:29 | INFO | 466198058 --> home page
-2023-04-27 at 17:11:32 | INFO | 952859259 --> home page
-2023-04-27 at 17:11:37 | INFO | 466198058 --> home page
-2023-04-27 at 17:12:20 | INFO | 466198058 --> home page
-2023-04-27 at 17:12:22 | INFO | 466198058 --> home page
-2023-04-27 at 17:12:23 | INFO | 466198058 --> home page
-2023-04-27 at 17:12:24 | INFO | 466198058 --> home page
-2023-04-27 at 17:12:26 | INFO | 466198058 --> home page
-2023-04-27 at 17:16:31 | INFO | users loaded
-2023-04-27 at 17:16:31 | INFO | topics loaded
-2023-04-27 at 17:16:51 | INFO | 466198058 --> home page
-2023-04-27 at 17:17:10 | INFO | 466198058 --> home page
-2023-04-27 at 17:17:13 | INFO | 466198058 --> home page
-2023-04-27 at 17:17:15 | INFO | 466198058 --> home page
-2023-04-27 at 17:17:22 | INFO | 466198058 --> home page
-2023-04-27 at 17:17:27 | INFO | 466198058 --> home page
-2023-04-27 at 17:17:49 | INFO | users loaded
-2023-04-27 at 17:17:49 | INFO | topics loaded
-2023-04-27 at 17:17:52 | INFO | 466198058 has reported topic 0
-2023-04-27 at 17:18:43 | INFO | users loaded
-2023-04-27 at 17:18:43 | INFO | topics loaded
-2023-04-27 at 17:18:43 | WARNING | 952859259 is creating the database
-2023-04-27 at 17:18:43 | INFO | Connecting to db
-2023-04-27 at 17:18:43 | INFO | Created database tables
-2023-04-27 at 17:18:48 | INFO | users loaded
-2023-04-27 at 17:19:30 | INFO | users loaded
-2023-04-27 at 17:19:30 | INFO | topics loaded
-2023-04-27 at 17:19:30 | INFO | topics loaded
-2023-04-27 at 17:19:30 | INFO | topics loaded
-2023-04-27 at 17:19:30 | WARNING | 952859259 is creating the database
-2023-04-27 at 17:19:30 | INFO | Connecting to db
-2023-04-27 at 17:19:30 | INFO | Created database tables
-2023-04-27 at 17:19:33 | INFO | users loaded
-2023-04-27 at 17:19:33 | INFO | topics loaded
-2023-04-27 at 17:19:33 | INFO | topics loaded
-2023-04-27 at 17:19:33 | INFO | 952859259 --> home page
-2023-04-27 at 17:19:36 | INFO | topics loaded
-2023-04-27 at 17:19:36 | INFO | topics loaded
-2023-04-27 at 17:19:39 | INFO | topics loaded
-2023-04-27 at 17:19:39 | INFO | topics loaded
-2023-04-27 at 17:19:39 | INFO | 952859259 --> home page
-2023-04-27 at 17:19:40 | INFO | topics loaded
-2023-04-27 at 17:19:40 | INFO | topics loaded
-2023-04-27 at 17:19:40 | INFO | topics loaded
-2023-04-27 at 17:19:43 | INFO | topics loaded
-2023-04-27 at 17:19:43 | INFO | topics loaded
-2023-04-27 at 17:19:43 | INFO | topics loaded
-2023-04-27 at 17:19:46 | INFO | topics loaded
-2023-04-27 at 17:19:46 | INFO | topics loaded
-2023-04-27 at 17:19:46 | INFO | topics loaded
-2023-04-27 at 17:19:51 | INFO | 952859259 --> home page
-2023-04-27 at 17:20:00 | INFO | 952859259 --> home page
-2023-04-27 at 17:20:05 | INFO | 952859259 set his/her state as 'busy'
-2023-04-27 at 17:20:07 | INFO | 952859259 set his/her state as 'ready'
-2023-04-27 at 17:20:10 | INFO | 952859259 --> home page
-2023-04-27 at 17:20:17 | INFO | 952859259 --> home page
-2023-04-27 at 17:21:43 | INFO | 466198058 has reported topic 0
-2023-04-27 at 17:21:53 | INFO | 952859259 sent message to companion 466198058
-2023-04-27 at 17:21:59 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:22:02 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:22:06 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:22:12 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:22:17 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:22:24 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:22:35 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:22:47 | INFO | 952859259 stopped discussion
-2023-04-27 at 17:24:40 | INFO | users loaded
-2023-04-27 at 17:24:40 | INFO | topics loaded
-2023-04-27 at 17:24:48 | INFO | 466198058 --> home page
-2023-04-27 at 17:24:49 | INFO | 466198058 --> home page
-2023-04-27 at 17:24:50 | INFO | 466198058 --> home page
-2023-04-27 at 17:24:51 | INFO | 466198058 --> home page
-2023-04-27 at 17:24:51 | INFO | 466198058 --> home page
-2023-04-27 at 17:24:52 | INFO | 466198058 --> home page
-2023-04-27 at 17:26:06 | INFO | 466198058 --> home page
-2023-04-27 at 17:26:08 | INFO | 466198058 --> home page
-2023-04-27 at 17:26:09 | INFO | 466198058 set his/her state as 'busy'
-2023-04-27 at 17:26:14 | INFO | 466198058 has reported topic 0
-2023-04-27 at 17:26:22 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:26:32 | INFO | 952859259 sent message to companion 466198058
-2023-04-27 at 17:26:33 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:26:44 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:26:55 | INFO | 952859259 sent message to companion 466198058
-2023-04-27 at 17:27:15 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:27:20 | INFO | 952859259 sent message to companion 466198058
-2023-04-27 at 17:27:23 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:27:29 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:27:35 | INFO | 952859259 stopped discussion
-2023-04-27 at 17:27:56 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:28:04 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:28:05 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:28:06 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:28:06 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:28:07 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:28:07 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:28:07 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:28:07 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:28:08 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:28:08 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:28:08 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:28:08 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:28:09 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:28:09 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:28:09 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:28:10 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:28:16 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:28:27 | INFO | 952859259 sent message to companion 466198058
-2023-04-27 at 17:28:35 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:28:41 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:28:44 | INFO | 952859259 sent message to companion 466198058
-2023-04-27 at 17:28:57 | INFO | 952859259 sent message to companion 466198058
-2023-04-27 at 17:29:01 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:29:02 | INFO | 952859259 sent message to companion 466198058
-2023-04-27 at 17:29:10 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:29:12 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:29:18 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:29:18 | INFO | 952859259 sent message to companion 466198058
-2023-04-27 at 17:29:26 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:29:34 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:29:43 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:29:58 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:29:58 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:29:58 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:29:58 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:29:58 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:29:59 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:29:59 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:29:59 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:29:59 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:29:59 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:29:59 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:29:59 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:29:59 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:29:59 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:29:59 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:29:59 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:29:59 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:29:59 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:29:59 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:29:59 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:30:13 | INFO | 952859259 sent message to companion 466198058
-2023-04-27 at 17:30:14 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:30:19 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:30:21 | INFO | 466198058 stopped discussion
-2023-04-27 at 17:30:24 | INFO | 952859259 --> home page
-2023-04-27 at 17:30:34 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:30:40 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:30:45 | INFO | 952859259 sent message to companion 466198058
-2023-04-27 at 17:30:46 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:30:56 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:35:00 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:35:00 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:35:00 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:35:00 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:35:00 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:35:06 | INFO | 952859259 sent message to companion 466198058
-2023-04-27 at 17:35:14 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:35:14 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:35:14 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:35:14 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:35:14 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:35:14 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:35:14 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:35:14 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:35:14 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:35:14 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:35:14 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:35:14 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:35:15 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:35:15 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:35:15 | INFO | 466198058 sent message to companion 952859259
-2023-04-27 at 17:41:58 | INFO | users loaded
-2023-04-27 at 17:41:58 | INFO | topics loaded
-2023-04-27 at 17:42:01 | INFO | 952859259 --> home page
-2023-04-27 at 17:42:06 | INFO | 952859259 --> home page
-2023-04-27 at 17:42:12 | INFO | 952859259 --> home page
-2023-04-27 at 17:43:40 | INFO | 653490030 --> home page
-2023-04-27 at 17:43:43 | INFO | 952859259 --> home page
-2023-04-27 at 17:43:45 | WARNING | 952859259 is creating the database
-2023-04-27 at 17:43:45 | INFO | Connecting to db
-2023-04-27 at 17:43:45 | INFO | Created database tables
-2023-04-27 at 17:43:47 | INFO | users loaded
-2023-04-27 at 17:43:48 | INFO | 952859259 --> home page
-2023-04-27 at 17:44:21 | INFO | 653490030 --> home page
-2023-04-27 at 17:44:22 | INFO | 952859259 --> home page
-2023-04-27 at 17:48:10 | INFO | users loaded
-2023-04-27 at 17:48:10 | INFO | topics loaded
-2023-04-27 at 17:48:10 | INFO | 952859259 --> home page
-2023-04-27 at 17:48:29 | INFO | 952859259 --> home page
-2023-04-27 at 17:48:36 | INFO | topics loaded
-2023-04-27 at 17:48:37 | INFO | topics loaded
-2023-04-27 at 17:48:37 | INFO | topics loaded
-2023-04-27 at 17:48:37 | INFO | 952859259 --> home page
+2023-05-02 at 12:43:05 | INFO | users loaded
+2023-05-02 at 12:43:05 | INFO | topics loaded
+2023-05-02 at 12:43:05 | INFO | topics loaded
+2023-05-02 at 12:43:05 | INFO | disastah2004 caught
+2023-05-02 at 12:45:38 | INFO | users loaded
+2023-05-02 at 12:45:38 | INFO | topics loaded
+2023-05-02 at 12:45:38 | INFO | topics loaded
+2023-05-02 at 12:45:38 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 12:48:19 | INFO | users loaded
+2023-05-02 at 12:48:19 | INFO | topics loaded
+2023-05-02 at 12:48:19 | INFO | topics loaded
+2023-05-02 at 12:48:19 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 12:48:23 | INFO | topics loaded
+2023-05-02 at 12:48:23 | INFO | topics loaded
+2023-05-02 at 12:48:23 | INFO | 952859259 --> home page
+2023-05-02 at 12:49:33 | INFO | users loaded
+2023-05-02 at 12:49:34 | INFO | topics loaded
+2023-05-02 at 12:49:34 | INFO | topics loaded
+2023-05-02 at 12:49:34 | INFO | 952859259 --> home page
+2023-05-02 at 12:49:38 | INFO | topics loaded
+2023-05-02 at 12:49:38 | INFO | topics loaded
+2023-05-02 at 12:49:38 | INFO | 952859259 --> home page
+2023-05-02 at 12:49:40 | INFO | topics loaded
+2023-05-02 at 12:49:40 | INFO | topics loaded
+2023-05-02 at 12:49:40 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 12:49:48 | INFO | topics loaded
+2023-05-02 at 12:49:48 | INFO | topics loaded
+2023-05-02 at 12:49:48 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 12:50:24 | INFO | topics loaded
+2023-05-02 at 12:50:24 | INFO | topics loaded
+2023-05-02 at 12:50:24 | INFO | 952859259 --> home page
+2023-05-02 at 12:50:26 | INFO | topics loaded
+2023-05-02 at 12:50:26 | INFO | topics loaded
+2023-05-02 at 12:50:26 | INFO | topics loaded
+2023-05-02 at 12:50:26 | INFO | 952859259 --> my topics page
+2023-05-02 at 12:50:29 | INFO | topics loaded
+2023-05-02 at 12:50:30 | INFO | topics loaded
+2023-05-02 at 12:50:30 | INFO | topics loaded
+2023-05-02 at 12:50:40 | INFO | topics loaded
+2023-05-02 at 12:50:40 | INFO | topics loaded
+2023-05-02 at 12:50:40 | INFO | topics loaded
+2023-05-02 at 12:50:50 | INFO | topics loaded
+2023-05-02 at 12:50:50 | INFO | topics loaded
+2023-05-02 at 12:50:50 | INFO | topics loaded
+2023-05-02 at 12:50:50 | INFO | 952859259 --> my topics page
+2023-05-02 at 12:50:54 | INFO | 952859259 --> topic 0 page
+2023-05-02 at 12:50:56 | INFO | 952859259 --> topic 0 page
+2023-05-02 at 12:50:57 | INFO | 952859259 --> my topics page
+2023-05-02 at 12:50:58 | INFO | 952859259 --> home page
+2023-05-02 at 13:05:32 | INFO | users loaded
+2023-05-02 at 13:05:32 | INFO | topics loaded
+2023-05-02 at 13:05:32 | INFO | 952859259 --> home page
+2023-05-02 at 13:05:58 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 13:06:01 | INFO | 952859259 --> home page
+2023-05-02 at 13:06:04 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 13:06:07 | INFO | 952859259 --> home page
+2023-05-02 at 13:39:42 | INFO | users loaded
+2023-05-02 at 13:39:42 | INFO | topics loaded
+2023-05-02 at 13:40:17 | INFO | users loaded
+2023-05-02 at 13:40:17 | INFO | topics loaded
+2023-05-02 at 13:40:17 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 13:40:21 | INFO | 952859259 --> home page
+2023-05-02 at 13:40:25 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 13:40:49 | INFO | users loaded
+2023-05-02 at 13:40:49 | INFO | topics loaded
+2023-05-02 at 13:40:49 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 13:40:52 | INFO | 952859259 --> home page
+2023-05-02 at 13:40:56 | INFO | 952859259 --> my topics page
+2023-05-02 at 13:41:47 | INFO | users loaded
+2023-05-02 at 13:41:47 | INFO | topics loaded
+2023-05-02 at 13:41:47 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 13:42:21 | INFO | users loaded
+2023-05-02 at 13:42:21 | INFO | topics loaded
+2023-05-02 at 13:42:22 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 13:42:25 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 13:42:27 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 13:42:28 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 13:42:30 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 13:42:31 | INFO | 952859259 --> home page
+2023-05-02 at 13:42:33 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 13:42:53 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 13:42:54 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 13:42:57 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 13:43:01 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 13:43:04 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 13:43:04 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 13:43:07 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 13:43:08 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 13:43:10 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 19:00:36 | INFO | users loaded
+2023-05-02 at 19:00:36 | INFO | topics loaded
+2023-05-02 at 19:00:42 | INFO | 585100436 --> help page
+2023-05-02 at 19:00:45 | INFO | 952859259 --> home page
+2023-05-02 at 19:00:47 | INFO | 952859259 --> my topics page
+2023-05-02 at 19:00:49 | INFO | 952859259 --> home page
+2023-05-02 at 19:01:04 | INFO | 585100436 set his/her state as 'ready'
+2023-05-02 at 19:01:11 | INFO | 585100436 set his/her state as 'busy'
+2023-05-02 at 19:02:47 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 19:02:50 | INFO | 952859259 --> home page
+2023-05-02 at 19:03:35 | INFO | 585100436 (micropupsich) started surfing
+2023-05-02 at 19:03:39 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 19:03:40 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 19:03:42 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 19:03:44 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 19:03:45 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 19:03:47 | INFO | 585100436 started discussion with 952859259
+2023-05-02 at 19:03:48 | INFO | 952859259 sent message to companion 585100436
+2023-05-02 at 19:03:49 | INFO | 952859259 sent message to companion 585100436
+2023-05-02 at 19:03:50 | INFO | 952859259 sent message to companion 585100436
+2023-05-02 at 19:03:51 | INFO | 952859259 sent message to companion 585100436
+2023-05-02 at 19:03:52 | INFO | 952859259 sent message to companion 585100436
+2023-05-02 at 19:03:53 | INFO | 952859259 sent message to companion 585100436
+2023-05-02 at 19:03:57 | INFO | 585100436 sent message to companion 952859259
+2023-05-02 at 19:04:02 | INFO | 952859259 sent message to companion 585100436
+2023-05-02 at 19:04:07 | INFO | 952859259 sent message to companion 585100436
+2023-05-02 at 19:04:13 | INFO | 952859259 sent message to companion 585100436
+2023-05-02 at 19:04:24 | INFO | 952859259 sent message to companion 585100436
+2023-05-02 at 19:04:25 | INFO | 952859259 sent message to companion 585100436
+2023-05-02 at 19:04:33 | INFO | 952859259 sent message to companion 585100436
+2023-05-02 at 19:04:37 | INFO | 585100436 sent message to companion 952859259
+2023-05-02 at 19:04:41 | INFO | 952859259 sent message to companion 585100436
+2023-05-02 at 19:04:47 | INFO | 952859259 sent message to companion 585100436
+2023-05-02 at 19:04:49 | INFO | 952859259 sent message to companion 585100436
+2023-05-02 at 19:05:03 | INFO | 585100436 sent message to companion 952859259
+2023-05-02 at 19:05:05 | INFO | 952859259 sent message to companion 585100436
+2023-05-02 at 19:05:08 | INFO | 585100436 sent message to companion 952859259
+2023-05-02 at 19:05:10 | INFO | 952859259 sent message to companion 585100436
+2023-05-02 at 19:05:17 | INFO | 585100436 sent message to companion 952859259
+2023-05-02 at 19:05:22 | INFO | 585100436 sent message to companion 952859259
+2023-05-02 at 19:05:32 | INFO | 585100436 sent message to companion 952859259
+2023-05-02 at 19:05:45 | INFO | 952859259 sent message to companion 585100436
+2023-05-02 at 19:05:47 | INFO | 952859259 sent message to companion 585100436
+2023-05-02 at 19:05:50 | INFO | 952859259 sent message to companion 585100436
+2023-05-02 at 19:06:03 | INFO | 952859259 sent message to companion 585100436
+2023-05-02 at 19:06:22 | INFO | 952859259 sent message to companion 585100436
+2023-05-02 at 19:06:45 | INFO | 952859259 sent message to companion 585100436
+2023-05-02 at 19:06:45 | INFO | 585100436 sent message to companion 952859259
+2023-05-02 at 19:06:51 | INFO | 952859259 sent message to companion 585100436
+2023-05-02 at 19:06:56 | INFO | 952859259 sent message to companion 585100436
+2023-05-02 at 19:07:38 | INFO | 585100436 stopped discussion
+2023-05-02 at 19:07:41 | INFO | 585100436 (micropupsich) started surfing
+2023-05-02 at 19:07:49 | INFO | 585100436 --> home page
+2023-05-02 at 19:07:53 | INFO | 585100436 set his/her state as 'busy'
+2023-05-02 at 19:09:17 | INFO | 952859259 set his/her state as 'busy'
+2023-05-02 at 19:09:39 | INFO | 585100436 set his/her state as 'ready'
+2023-05-02 at 19:09:42 | INFO | 585100436 (micropupsich) started surfing
+2023-05-02 at 19:10:00 | INFO | 585100436 set his/her state as 'busy'
+2023-05-02 at 19:10:03 | INFO | 585100436 (micropupsich) started surfing
+2023-05-02 at 19:32:55 | INFO | users loaded
+2023-05-02 at 19:32:55 | INFO | topics loaded
+2023-05-02 at 19:33:03 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 19:34:11 | INFO | users loaded
+2023-05-02 at 19:34:11 | INFO | topics loaded
+2023-05-02 at 19:34:11 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 19:36:30 | INFO | users loaded
+2023-05-02 at 19:36:30 | INFO | topics loaded
+2023-05-02 at 19:36:30 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 19:36:36 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 19:36:38 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 19:36:39 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 19:36:40 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 19:36:42 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 19:37:12 | INFO | users loaded
+2023-05-02 at 19:37:12 | INFO | topics loaded
+2023-05-02 at 19:37:17 | INFO | 952859259 --> home page
+2023-05-02 at 19:37:28 | INFO | 952859259 --> home page
+2023-05-02 at 19:37:31 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 19:37:32 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 19:37:43 | INFO | users loaded
+2023-05-02 at 19:37:43 | INFO | topics loaded
+2023-05-02 at 19:37:43 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 19:37:44 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 19:38:06 | INFO | 952859259 --> home page
+2023-05-02 at 19:38:09 | INFO | 952859259 --> my topics page
+2023-05-02 at 19:38:13 | INFO | 952859259 --> home page
+2023-05-02 at 19:39:22 | INFO | users loaded
+2023-05-02 at 19:39:22 | INFO | topics loaded
+2023-05-02 at 19:39:22 | INFO | 952859259 --> home page
+2023-05-02 at 19:39:45 | INFO | 952859259 --> home page
+2023-05-02 at 19:40:20 | INFO | 952859259 --> help page
+2023-05-02 at 19:40:23 | INFO | 952859259 --> home page
+2023-05-02 at 19:40:27 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 19:45:51 | INFO | users loaded
+2023-05-02 at 19:45:51 | INFO | topics loaded
+2023-05-02 at 19:45:51 | INFO | 952859259 --> home page
+2023-05-02 at 19:49:05 | INFO | users loaded
+2023-05-02 at 19:49:05 | INFO | topics loaded
+2023-05-02 at 19:49:05 | INFO | 952859259 --> home page
+2023-05-02 at 19:52:42 | INFO | users loaded
+2023-05-02 at 19:52:43 | INFO | topics loaded
+2023-05-02 at 19:52:43 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 19:53:15 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 19:57:46 | INFO | 873373148 (d1m4p) started surfing
+2023-05-02 at 19:57:55 | INFO | 873373148 --> home page
+2023-05-02 at 19:57:56 | INFO | 873373148 --> my topics page
+2023-05-02 at 19:58:01 | INFO | 873373148 --> my topics page
+2023-05-02 at 19:58:06 | INFO | 873373148 --> topic 1 page
+2023-05-02 at 19:58:07 | INFO | 873373148 --> topic 1 page
+2023-05-02 at 20:01:36 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 20:16:58 | INFO | 952859259 --> home page
+2023-05-02 at 20:18:26 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 20:19:26 | INFO | 952859259 --> home page
+2023-05-02 at 20:19:44 | INFO | 952859259 --> my topics page
+2023-05-02 at 20:19:50 | INFO | 952859259 --> topic 0 page
+2023-05-02 at 20:19:52 | INFO | 952859259 --> my topics page
+2023-05-02 at 20:20:07 | INFO | 952859259 --> home page
+2023-05-02 at 20:20:22 | INFO | 952859259 --> my topics page
+2023-05-02 at 20:20:29 | INFO | 952859259 --> home page
+2023-05-02 at 20:20:30 | INFO | 952859259 --> my topics page
+2023-05-02 at 20:25:10 | INFO | 952859259 --> my topics page
+2023-05-02 at 20:26:56 | INFO | 952859259 --> home page
+2023-05-02 at 20:26:58 | INFO | 952859259 --> my topics page
+2023-05-02 at 20:27:08 | INFO | 952859259 --> my topics page
+2023-05-02 at 20:27:16 | INFO | 952859259 --> topic 3 page
+2023-05-02 at 20:27:18 | INFO | 952859259 --> my topics page
+2023-05-02 at 20:27:19 | INFO | 952859259 --> topic 2 page
+2023-05-02 at 20:27:20 | INFO | 952859259 --> my topics page
+2023-05-02 at 20:27:31 | INFO | 952859259 --> home page
+2023-05-02 at 20:27:32 | INFO | 952859259 --> my topics page
+2023-05-02 at 20:27:37 | INFO | 952859259 --> my topics page
+2023-05-02 at 20:29:57 | INFO | users loaded
+2023-05-02 at 20:29:57 | INFO | topics loaded
+2023-05-02 at 20:29:57 | INFO | 952859259 --> home page
+2023-05-02 at 20:29:59 | INFO | 952859259 --> my topics page
+2023-05-02 at 20:30:00 | INFO | 952859259 --> topic 4 page
+2023-05-02 at 20:30:02 | INFO | 952859259 --> my topics page
+2023-05-02 at 20:30:30 | INFO | 952859259 --> my topics page
+2023-05-02 at 20:32:31 | INFO | users loaded
+2023-05-02 at 20:32:31 | INFO | topics loaded
+2023-05-02 at 20:32:31 | INFO | 952859259 --> home page
+2023-05-02 at 20:32:32 | INFO | 952859259 --> my topics page
+2023-05-02 at 20:32:45 | INFO | users loaded
+2023-05-02 at 20:32:45 | INFO | topics loaded
+2023-05-02 at 20:32:45 | INFO | 952859259 --> home page
+2023-05-02 at 20:32:46 | INFO | 952859259 --> my topics page
+2023-05-02 at 20:33:05 | INFO | 952859259 --> home page
+2023-05-02 at 20:33:06 | INFO | 952859259 --> my topics page
+2023-05-02 at 20:33:07 | INFO | 952859259 --> topic 5 page
+2023-05-02 at 20:33:08 | INFO | 952859259 --> my topics page
+2023-05-02 at 20:34:36 | INFO | users loaded
+2023-05-02 at 20:34:36 | INFO | topics loaded
+2023-05-02 at 20:34:36 | INFO | 952859259 --> home page
+2023-05-02 at 20:34:39 | INFO | 952859259 --> my topics page
+2023-05-02 at 20:34:52 | INFO | 952859259 --> my topics page
+2023-05-02 at 20:37:45 | INFO | 952859259 --> topic 6 page
+2023-05-02 at 20:44:59 | INFO | 952859259 --> topic 6 page
+2023-05-02 at 20:48:04 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 20:48:08 | INFO | 952859259 started discussion with 873373148
+2023-05-02 at 21:15:31 | INFO | 952859259 sent message to companion 873373148
+2023-05-02 at 21:17:17 | INFO | 952859259 sent message to companion 873373148
+2023-05-02 at 21:17:23 | INFO | 952859259 stopped discussion
+2023-05-02 at 21:25:18 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 21:26:34 | INFO | 873373148 --> help page
+2023-05-02 at 21:26:44 | INFO | 873373148 --> home page
+2023-05-02 at 21:26:49 | INFO | 873373148 --> my topics page
+2023-05-02 at 21:26:55 | INFO | 873373148 --> my topics page
+2023-05-02 at 21:26:58 | INFO | 873373148 --> topic 7 page
+2023-05-02 at 21:27:00 | INFO | 873373148 --> topic 7 page
+2023-05-02 at 21:27:25 | INFO | 952859259 (disastah2004) started surfing
+2023-05-02 at 21:29:09 | INFO | 952859259 has reported topic 7
+2023-05-02 at 21:30:01 | INFO | 952859259 has reported topic 7
+2023-05-02 at 21:37:08 | INFO | 952859259 set his/her state as 'busy'
+2023-05-02 at 21:37:11 | INFO | 952859259 set his/her state as 'ready'

@@ -1,9 +1,11 @@
 from sql.base import db_create_pool
+import time
+from random import choice as random_choice
 
 from objects.topic import Topic, topics
 from loguru import logger
 
-from random import choice as random_choice
+import config
 
 users = {}
 class User:
@@ -14,6 +16,8 @@ class User:
         self.companion = user["companion"]
         self.active_topic = user["active_topic"]
         self.opened = user["opened"]
+
+        self.last_event_time = time.time() - 10
     
     async def get_ready(self):
         self.opened = True
@@ -90,4 +94,13 @@ class User:
         topics[topic_id].companion = -1
         await db.execute("UPDATE topics SET companion = -1")
         await db.close()
-        
+    
+    def remember_moment(self):
+        self.last_event_time = time.time()
+    
+    def is_event_will_be_handled(self):
+        time_now = time.time()
+        diff = time_now - self.last_event_time
+        if diff < config.USER_MSG_MAX_RATE:
+            return False
+        return True

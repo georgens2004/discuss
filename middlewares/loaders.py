@@ -43,3 +43,23 @@ class LoadTopicsMiddleware(BaseMiddleware):
             await db_load_all_topics()
             logger.info("topics loaded")
         return await handler(event, data)
+
+
+class AntiSpamMiddleware(BaseMiddleware):
+    async def __call__(
+        self,
+        handler: Callable[[Message, Dict[str, Any]], Awaitable[Any]],
+        event: Message,
+        data: Dict[str, Any]
+    ) -> Any:
+        id = data["event_from_user"].id
+        if users[id].is_event_will_be_handled():
+            users[id].remember_moment()
+            return await handler(event, data)
+        await event.answer(
+            "<i>"+
+            "Пожалуйста, помедленнее"+
+            "</i>"
+        )
+        return None
+

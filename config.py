@@ -20,6 +20,7 @@ PG_DATABASE = os.getenv('PG_DATABASE')
 # User
 
 USER_MAX_TOPICS = 3
+USER_MSG_MAX_RATE = 0.8
 
 # Topics
 

@@ -21,9 +21,9 @@ async def main():
     
     from handlers import chatting, main, topics, admin
 
-    dp.include_router(chatting.router)
     dp.include_router(main.router)
     dp.include_router(topics.router)
+    dp.include_router(chatting.router)
     dp.include_router(admin.router)
 
     await bot.delete_webhook(drop_pending_updates = True)
